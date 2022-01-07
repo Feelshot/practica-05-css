@@ -10,4 +10,74 @@
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
 }
+body {
+    background-color: var(--Dark-cyan);
+}
 
+.container {
+    background-color: #f3ecec;
+    width: 350px ;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto 0 auto;
+    border-radius: 10px;
+}
+.container .images-container {
+    position: relative;
+}
+.container .images-container img:nth-child(1) {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.container .images-container img:nth-child(2) {
+    border: 5px solid #f3efef;
+    border-radius: 100%;
+    position: absolute;
+    left: 34%;
+    top: 60%;
+}
+
+
+
+
+
+
+
+
+.circles-bg {
+    position: relative;
+}
+.circles-bg .circle-top {
+    width: 300px;
+    height: 400px;
+    background-image: url(img/bg-pattern-top.svg);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    /*
+    position: absolute;
+    top: -88%;
+    bottom: 0px;
+    z-index: 10;
+    */
+
+}
+.circles-bg .circle-bottom {
+    width: 300px;
+    height: 400px;
+    background-image: url(img/bg-pattern-bottom.svg);
+    background-position: 10% -10%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/*
+.circles-bg .circle-top {
+    width: 300px;
+    height: 300px;
+    background-image: url(img/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: relative;
+}
+*/
