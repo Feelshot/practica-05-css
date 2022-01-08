@@ -23,13 +23,8 @@ body {
     background-color: #f3ecec;
     width: 350px ;
     height: 400px;
-    /*
-    display: flex;
-    flex-direction: column;
-    */
     margin: 100px auto 0 auto;
     border-radius: 10px;
-
 }
 
 /* ---- Imagenes del contenedor ---- */
@@ -102,48 +97,9 @@ body {
     letter-spacing: 2px;
 }
 
-
+/* ---- Tamaño bolitas background para desktop ---- */
 @media (min-width: 1000px) {
     body {
         background-position: right 50vw bottom 10vh, left 40vw top 45vh; 
     }
 }
-
-
-/* ---- Circulos de background ---- */
-
-/*
-.circles-bg .circle-top {
-    width: 300px;
-    height: 400px;
-    background-image: url(img/bg-pattern-top.svg);
-    background-position: 100% 100%;
-    background-repeat: no-repeat;
-    /*
-    position: absolute;
-    top: -88%;
-    bottom: 0px;
-    z-index: 10;
-    */
-
-}
-/*
-.circles-bg .circle-bottom {
-    width: 300px;
-    height: 400px;
-    background-image: url(img/bg-pattern-bottom.svg);
-    background-position: 10% 0%;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-/*
-.circles-bg .circle-top {
-    width: 300px;
-    height: 300px;
-    background-image: url(img/bg-pattern-top.svg);
-    background-repeat: no-repeat;
-    background-position: top left;
-    position: relative;
-}
-*/
